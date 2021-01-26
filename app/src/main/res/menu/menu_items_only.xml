@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--This drawer menu has items Only without any group or classification -->
+    <item
+        android:id="@+id/navigation_item_1"
+        android:title="Mobile">
+        <menu>
+    <item
+        android:id="@+id/item_android"
+        android:checkable="true"
+        android:icon="@drawable/ic_android"
+        android:title="Android"/>
+
+    <item
+        android:id="@+id/item_ios"
+        android:checkable="true"
+        android:icon="@drawable/ic_ios"
+        android:title="Ios"/>
+        </menu>
+    </item>
+    <item
+        android:id="@+id/navigation_item_2"
+        android:title="Tablet">
+        <menu>
+    <item
+        android:id="@+id/item_windows"
+        android:checkable="true"
+        android:icon="@drawable/ic_windows"
+        android:title="Apple Tablet"/>
+
+    <item
+        android:id="@+id/item_blackberry"
+        android:checkable="true"
+        android:icon="@drawable/ic_blackberry"
+        android:title="Smart Phone"/>
+
+    <item
+        android:id="@+id/item_ionic"
+        android:checkable="true"
+        android:icon="@drawable/ic_ionic"
+        android:title="Tablet"/>
+        </menu>
+    </item>
+
+<!--    <item-->
+<!--        android:id="@+id/item_css"-->
+<!--        android:checkable="true"-->
+<!--        android:icon="@drawable/ic_css"-->
+<!--        android:title="css"/>-->
+
+<!--    <item-->
+<!--        android:id="@+id/item_html"-->
+<!--        android:checkable="true"-->
+<!--        android:icon="@drawable/ic_html"-->
+<!--        android:title="html"/>-->
+
+<!--    <item-->
+<!--        android:id="@+id/item_ruby"-->
+<!--        android:checkable="true"-->
+<!--        android:icon="@drawable/ic_ruby"-->
+<!--        android:title="ruby"/>-->
+
+<!--    <item-->
+<!--        android:id="@+id/item_php"-->
+<!--        android:checkable="true"-->
+<!--        android:icon="@drawable/ic_php"-->
+<!--        android:title="php"/>-->
+
+<!--    <item-->
+<!--        android:id="@+id/item_python"-->
+<!--        android:checkable="true"-->
+<!--        android:icon="@drawable/ic_python"-->
+<!--        android:title="python"/>-->
+
+</menu>
